@@ -12,7 +12,7 @@ Complete the information below regarding your group.
 - Member 1 (zID1) - Group leader
 - Member 2 (zID2) - role
 - Member 3 (zID3) - role
-- Member 4 (zID4) - role
+- Member 4 (z5319013) - Justin Bloesch (Data Scientist)
 - Member 5 (zID5) - role
 
 ### Brief project description
