@@ -9,8 +9,8 @@ Complete the information below regarding your group.
 ## Group and project information
 
 ### Group members and zIDs
-- Member 1 (zID1) - Group leader
-- Member 2 (zID2) - role
+- Member 1 (z5314512) - Lany Cochon (Group leader)
+- Member 2 (zID2) - Ella Pyman (Data Consultant)
 - Member 3 (z5322111) - Jessica Navarro (Data Scientist)
 - Member 4 (z5319013) - Justin Bloesch (Data Scientist)
 - Member 5 (z5334568) - Assadullah Samir (Data Scientist)
