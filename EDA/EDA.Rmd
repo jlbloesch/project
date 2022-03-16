@@ -1,6 +1,8 @@
 ---
 title: "Group Assignment"
-output: html_notebook
+output:
+  html_document:
+    df_print: paged
 ---
 
 Load the libraries and the SA data 
@@ -45,14 +47,17 @@ sa_cons%>%plot_time_series(.date_var = DATETIME,.value = TOTALDEMAND,.interactiv
 ACF and PACF
 
 ```{r}
-sa_cons%>% plot_acf_diagnostics(.date_var = DATETIME,.value = TOTALDEMAND,.lags = 0:17520)
+sa_cons%>%filter(DATETIME>="2015-01-01")%>%
+  plot_acf_diagnostics(.date_var = DATETIME,.value = TOTALDEMAND,.lags = 0:17520)
 ```
 Plot seasonal diagnostics
 
 ```{r}
-sa_cons %>% plot_seasonal_diagnostics(DATETIME, TOTALDEMAND,.feature_set = c("quarter","year","month.lbl"),.y_lab = "DEMAND")
+sa_cons%>%filter(DATETIME>="2015-01-01")%>%
+  plot_seasonal_diagnostics(DATETIME, TOTALDEMAND,.feature_set = c("quarter","month.lbl"),.y_lab = "DEMAND")
 ```
 ```{r}
-sa_cons %>% plot_seasonal_diagnostics(DATETIME, TOTALDEMAND,.feature_set = c("hour","wday.lbl","week"),.y_lab = "DEMAND")
+sa_cons %>%filter(DATETIME>="2015-01-01")%>%
+  plot_seasonal_diagnostics(DATETIME, TOTALDEMAND,.feature_set = c("hour","wday.lbl","week"),.y_lab = "DEMAND")
 
 ```
