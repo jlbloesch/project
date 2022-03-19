@@ -19,7 +19,9 @@ Complete the information below regarding your group.
 
 The Australian Energy Market Operator (AEMO) has engaged Spark Consulting
 to review the methodologies it uses to forecast short term electricity demand in
-the National Electricity Market (NEM) and compare model performance. Spark Consulting will test whether other approaches gaining traction in
+the National Electricity Market (NEM) and compare model performance. Concerns have been raised about the accuracy of AEMO’s model in the most
+recent financial year (FY20-21) as significant variation has been observed between
+the forecasted values and the actual peaks in demand. Spark Consulting will test whether other approaches gaining traction in
 recent literature could achieve better results than AEMO’s current model. These
 approaches are: a statistical SARIMA model and a Neural Network Architecture,
 Temporal Fusion Transformer (TFT).
